@@ -9,7 +9,7 @@ cask "gai" do
   url "https://webpath.iche2.com/release/Gai-#{version}-universal.dmg"
   name "Gai"
   desc "Generative-AI Tools For Beginner"
-  homepage "https://github.com/huanguan1978/pygai"
+  homepage "https://webpath.iche2.com/gaidoc/en/"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
