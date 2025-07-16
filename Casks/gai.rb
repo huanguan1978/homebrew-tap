@@ -2,7 +2,7 @@
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "gai" do
-  version "1.2.0"
+  version "1.2.1"
   # sha256 "f97186b470592ef33079281baadf23c2d3ad2f807ee25faa7ec3f3e8ddc47926"
   sha256 :no_check
 
