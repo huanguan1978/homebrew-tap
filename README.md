@@ -15,7 +15,7 @@ Supported Platforms:
 
 # Install
 brew tap huanguan1978/tap
-brew install ft
+brew install huanguan1978/tap/ft
 
 # Verify installation
 ft --version
