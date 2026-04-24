@@ -45,5 +45,7 @@ cask "fileshows" do
   app "FileShows.app"
 
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
-  zap trash: ""
+  zap trash: [
+    "~/Library/Caches/com.iche2.fileshows",
+  ]
 end
