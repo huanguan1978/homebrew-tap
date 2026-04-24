@@ -72,9 +72,6 @@ endclass Ft < Formula
     elsif Hardware::CPU.intel?
       url "https://github.com/huanguan1978/ft/releases/download/v#{version}/ft-linux-x64-#{version}.zip"
       sha256 "6b1ae2ed2c64cf35e3b6be0eda7e6b92bc6de4ed0ee7ca04c92fd3d0fcccb3f8"
-    elsif Hardware::CPU.riscv64?
-      url "https://github.com/huanguan1978/ft/releases/download/v#{version}/ft-linux-riscv64-#{version}.zip"
-      sha256 "ac5318ca96f498d0d26604cc6916386cd29ad27172c653d88e1fb2abb49f980c"
     end
   end
 
