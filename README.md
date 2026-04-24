@@ -13,9 +13,12 @@ Supported Platforms:
 # brew uninstall ft
 # brew untap huanguan1978/tap
 
-# Install
+# Install (Recommended: Pre-compiled binary for faster installation)
 brew tap huanguan1978/tap
-brew install huanguan1978/tap/ft
+brew install --cask huanguan1978/tap/ft
+
+# Alternative: Install from source (requires Dart SDK)
+# brew install huanguan1978/tap/ft
 
 # Verify installation
 ft --version
