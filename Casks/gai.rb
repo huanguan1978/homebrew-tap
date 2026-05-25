@@ -2,8 +2,8 @@
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "gai" do
-  version "1.2.6"
-  # sha256 "f97186b470592ef33079281baadf23c2d3ad2f807ee25faa7ec3f3e8ddc47926"
+  version "1.2.7"
+  # sha256 "3393d265b3b88a72772128ef8abab88212b80cd9b20c143d4906691dcbe6e416"
   sha256 :no_check
 
   url "https://webpath.iche2.com/release/Gai-#{version}-universal.dmg"
