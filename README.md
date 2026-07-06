@@ -27,6 +27,27 @@ ft --version
 ft --help
 ```
 
+#### Chapose
+
+Modern high-performance file security CLI tool.
+
+Supported Platforms:
+- macOS 14+ (Sonoma and later)
+
+```shell
+# uninstall
+# brew untap huanguan1978/tap
+# brew uninstall huanguan1978/tap/chapose
+
+# install
+brew tap avatar/tap
+brew install --cask huanguan1978/tap/chapose
+
+# verify
+chapose --version
+```
+
+
 #### Gai
 
 Generative-AI Tools For Beginner
@@ -68,3 +89,4 @@ Offline Secure Vault.
 brew tap huanguan1978/tap
 brew install --cask huanguan1978/tap/chabox
 ```
+
