@@ -2,7 +2,7 @@
 
 English | [简体中文](README_zh.md)
 
-A personal Homebrew tap for macOS tools built and maintained by Avatar.
+A personal Homebrew tap for macOS tools.
 
 Built around a simple promise: privacy first, no ads, no forced sign-up, and practical tools you can use right away.
 
@@ -19,6 +19,8 @@ What you will find here:
 ```shell
 brew tap huanguan1978/tap
 ```
+
+Note: Homebrew packages in this repository are published via this custom tap (`huanguan1978/tap`), not Homebrew core (`homebrew/core`).
 
 ## Available Packages
 
@@ -50,10 +52,15 @@ brew install --cask huanguan1978/tap/ft
 # Optional: install from Formula
 brew install huanguan1978/tap/ft
 
+# Optional: install with MacPorts
+sudo port install ft
+
 # Verify
 ft --version
 ft --help
 ```
+
+MacPorts page: https://ports.macports.org/port/ft/
 
 ### chapose (CLI)
 
@@ -72,9 +79,21 @@ brew install --cask huanguan1978/tap/chapose
 # Optional: install from Formula
 brew install huanguan1978/tap/chapose
 
+# Optional: install with MacPorts
+sudo port install chapose
+
 # Verify
 chapose --version
 ```
+
+MacPorts page: https://ports.macports.org/port/chapose/
+
+### Homebrew vs MacPorts (Quick Note)
+
+- MacPorts generally emphasizes source-based builds, with stronger local build customization.
+- Homebrew generally emphasizes prebuilt bottles, with faster install and out-of-the-box usage.
+- This is a general tendency, not an absolute rule: Homebrew can also build from source, and MacPorts also provides some binary support.
+- On one machine, it is usually best to stick with one package manager for similar CLI tools to avoid mixed PATH and dependency sources.
 
 ### chabox (GUI)
 

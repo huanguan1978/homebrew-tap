@@ -20,6 +20,8 @@ GitHub 仓库：https://github.com/huanguan1978/homebrew-tap
 brew tap huanguan1978/tap
 ```
 
+说明：本仓库中的 Homebrew 包来自自建 Tap（`huanguan1978/tap`），不是 Homebrew 官方仓库（homebrew/core）。
+
 ## 可用应用
 
 | 应用 | 类型 | 简介 | 安装命令 | 了解更多 |
@@ -50,10 +52,15 @@ brew install --cask huanguan1978/tap/ft
 # 可选：Formula 安装
 brew install huanguan1978/tap/ft
 
+# 可选：MacPorts 安装
+sudo port install ft
+
 # 验证
 ft --version
 ft --help
 ```
+
+MacPorts 页面：https://ports.macports.org/port/ft/
 
 ### chapose（CLI）
 
@@ -72,9 +79,21 @@ brew install --cask huanguan1978/tap/chapose
 # 可选：Formula 安装
 brew install huanguan1978/tap/chapose
 
+# 可选：MacPorts 安装
+sudo port install chapose
+
 # 验证
 chapose --version
 ```
+
+MacPorts 页面：https://ports.macports.org/port/chapose/
+
+### Homebrew 与 MacPorts（简要区别）
+
+- MacPorts 通常以源码编译为主，更偏向本机构建与可定制选项。
+- Homebrew 通常以预编译二进制包（bottle）为主，更偏向快速安装与开箱即用。
+- 以上是整体倾向而非绝对区分：Homebrew 也可源码编译，MacPorts 也提供部分二进制支持。
+- 建议同一台机器尽量以一个包管理器为主安装同类 CLI，避免 PATH 与依赖来源混用。
 
 ### chabox（GUI）
 
